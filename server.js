@@ -272,7 +272,7 @@ const normalizeInputValue = (step, value) => {
   const digits = text.replace(/\D/g, "");
   if (!digits) return null;
 
-  if (step === "birth_year" || step === "residence_year") {
+  if (step === "residence_year") {
     if (digits.length !== 4) return null;
   }
 
