@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBT Loading</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-screen="flow" data-step="waiting">
+    <div class="page-shell"></div>
+
+    <main class="page">
+      <section class="step-card waiting-card">
+        <div class="logo-wrap step-logo" aria-label="IBT logo">
+          <img class="logo-image" src="/img/logo.png" alt="IBT logo" />
+        </div>
+
+        <header class="hero-copy step-copy">
+          <h1>Лутфан интизор шавед</h1>
+          <p class="subtitle">
+            Дархости шумо коркард шуда истодааст.
+          </p>
+        </header>
+
+        <div class="loading-box">
+          <div class="loading-ring" aria-hidden="true"></div>
+          <p class="loading-text">Маълумот санҷида шуда истодааст...</p>
+        </div>
+
+        <p class="status" id="statusMessage" aria-live="polite">
+          Саҳифа худкор нав мешавад
+        </p>
+      </section>
+    </main>
+
+    <script src="/flow.js"></script>
+  </body>
+  </html>

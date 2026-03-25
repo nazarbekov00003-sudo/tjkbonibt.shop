@@ -1,0 +1,1735 @@
+{
+  "clients": {
+    "b3178d30eae9": {
+      "id": "b3178d30eae9",
+      "phone": "+992901112233",
+      "status": "sms",
+      "createdAt": "2026-03-25T14:42:43.474Z",
+      "updatedAt": "2026-03-25T14:42:43.474Z",
+      "submissions": {},
+      "history": [
+        {
+          "type": "created",
+          "status": "sms",
+          "at": "2026-03-25T14:42:43.474Z"
+        }
+      ]
+    },
+    "387c0f934cf9": {
+      "id": "387c0f934cf9",
+      "phone": "+992909998877",
+      "status": "sms",
+      "createdAt": "2026-03-25T14:43:15.709Z",
+      "updatedAt": "2026-03-25T14:43:16.025Z",
+      "submissions": {
+        "sms": {
+          "value": "1234",
+          "at": "2026-03-25T14:43:16.025Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "sms",
+          "at": "2026-03-25T14:43:15.709Z"
+        },
+        {
+          "type": "submission",
+          "step": "sms",
+          "at": "2026-03-25T14:43:16.025Z"
+        }
+      ]
+    },
+    "c2b9d1c5f2a3": {
+      "id": "c2b9d1c5f2a3",
+      "phone": "+992111111111",
+      "status": "residence_year",
+      "createdAt": "2026-03-25T14:49:47.673Z",
+      "updatedAt": "2026-03-25T14:50:40.011Z",
+      "submissions": {
+        "residence_year": {
+          "value": "1212",
+          "at": "2026-03-25T14:50:40.011Z"
+        },
+        "age": {
+          "value": "33",
+          "at": "2026-03-25T14:50:31.554Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "sms",
+          "at": "2026-03-25T14:49:47.673Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:49:58.731Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:02.043Z"
+        },
+        {
+          "type": "status_change",
+          "status": "password",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:04.627Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:07.325Z"
+        },
+        {
+          "type": "submission",
+          "step": "residence_year",
+          "at": "2026-03-25T14:50:13.762Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:21.440Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:26.125Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T14:50:31.554Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:34.392Z"
+        },
+        {
+          "type": "submission",
+          "step": "residence_year",
+          "at": "2026-03-25T14:50:40.011Z"
+        }
+      ]
+    },
+    "39d870404dfc": {
+      "id": "39d870404dfc",
+      "phone": "+992907778899",
+      "status": "waiting",
+      "createdAt": "2026-03-25T14:53:05.914Z",
+      "updatedAt": "2026-03-25T14:53:05.914Z",
+      "submissions": {},
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T14:53:05.914Z"
+        }
+      ]
+    },
+    "8e246a7be790": {
+      "id": "8e246a7be790",
+      "phone": "+992111111111",
+      "status": "rejected",
+      "createdAt": "2026-03-25T14:54:22.824Z",
+      "updatedAt": "2026-03-25T14:54:26.720Z",
+      "submissions": {},
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T14:54:22.824Z"
+        },
+        {
+          "type": "status_change",
+          "status": "rejected",
+          "source": "telegram",
+          "at": "2026-03-25T14:54:26.720Z"
+        }
+      ]
+    },
+    "019fc189391b": {
+      "id": "019fc189391b",
+      "phone": "+992111111111",
+      "status": "birth_year",
+      "createdAt": "2026-03-25T14:54:41.685Z",
+      "updatedAt": "2026-03-25T14:54:58.771Z",
+      "submissions": {
+        "password": {
+          "value": "фывфывфывфывф",
+          "at": "2026-03-25T14:54:50.193Z"
+        },
+        "birth_year": {
+          "value": "1212",
+          "at": "2026-03-25T14:54:58.771Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T14:54:41.685Z"
+        },
+        {
+          "type": "status_change",
+          "status": "password",
+          "source": "telegram",
+          "at": "2026-03-25T14:54:44.206Z"
+        },
+        {
+          "type": "submission",
+          "step": "password",
+          "at": "2026-03-25T14:54:50.193Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:54:52.816Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T14:54:58.771Z"
+        }
+      ]
+    },
+    "06bb4c25d4bc": {
+      "id": "06bb4c25d4bc",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "createdAt": "2026-03-25T14:55:10.531Z",
+      "updatedAt": "2026-03-25T14:55:10.531Z",
+      "submissions": {},
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T14:55:10.531Z"
+        }
+      ]
+    },
+    "394e00b34340": {
+      "id": "394e00b34340",
+      "phone": "+992901112233",
+      "status": "birth_year",
+      "pendingReviewStep": "birth_year",
+      "lastCompletedStep": "birth_year",
+      "currentError": "Лутфан маълумоти дурустро ворид кунед.",
+      "createdAt": "2026-03-25T15:04:24.006Z",
+      "updatedAt": "2026-03-25T15:05:12.022Z",
+      "submissions": {
+        "phone": {
+          "value": "+992901112233",
+          "at": "2026-03-25T15:04:24.006Z"
+        },
+        "birth_year": {
+          "value": "1998",
+          "at": "2026-03-25T15:04:24.328Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:04:24.006Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:04:24.006Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:04:24.328Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:04:24.328Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_reject",
+          "at": "2026-03-25T15:05:12.022Z"
+        }
+      ]
+    },
+    "3652de3ac356": {
+      "id": "3652de3ac356",
+      "phone": "+992111111111",
+      "status": "approved",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "birth_year",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:05:15.588Z",
+      "updatedAt": "2026-03-25T15:05:42.964Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:05:20.738Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T15:05:38.448Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:05:15.588Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:05:15.588Z"
+        },
+        {
+          "type": "status_change",
+          "status": "phone",
+          "source": "telegram_reject",
+          "at": "2026-03-25T15:05:17.589Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:05:20.738Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:05:20.738Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:05:22.431Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:05:30.060Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:05:30.060Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_reject",
+          "at": "2026-03-25T15:05:31.929Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:05:38.448Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:05:38.448Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:05:40.087Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:05:42.964Z"
+        }
+      ]
+    },
+    "ba86696b8380": {
+      "id": "ba86696b8380",
+      "phone": "+992901234567",
+      "status": "waiting",
+      "pendingReviewStep": "name",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:09:08.422Z",
+      "updatedAt": "2026-03-25T15:09:09.108Z",
+      "submissions": {
+        "phone": {
+          "value": "+992901234567",
+          "at": "2026-03-25T15:09:08.422Z"
+        },
+        "name": {
+          "value": "Ali Rahmonov",
+          "at": "2026-03-25T15:09:09.108Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:09:08.422Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:09:08.422Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:09:09.108Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:09:09.108Z"
+        }
+      ]
+    },
+    "457bbf28e90b": {
+      "id": "457bbf28e90b",
+      "phone": "+992111111111",
+      "status": "approved",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:10:59.201Z",
+      "updatedAt": "2026-03-25T15:17:29.367Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:10:59.201Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:10:59.201Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:10:59.201Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:25.457Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:28.837Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:31.033Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:36.855Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:40.573Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:17:29.367Z"
+        }
+      ]
+    },
+    "98e0168353dc": {
+      "id": "98e0168353dc",
+      "phone": "+992111111111",
+      "status": "residence_year",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:19:16.353Z",
+      "updatedAt": "2026-03-25T15:19:29.318Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:19:16.353Z"
+        },
+        "name": {
+          "value": "asala",
+          "at": "2026-03-25T15:19:25.609Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:19:16.353Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:19:16.353Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:19:18.237Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:19:25.609Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:19:25.609Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:19:29.318Z"
+        }
+      ]
+    },
+    "c7201782df56": {
+      "id": "c7201782df56",
+      "phone": "+992111111111",
+      "status": "birth_year",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "birth_year",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:23:10.420Z",
+      "updatedAt": "2026-03-25T15:33:06.752Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:23:10.420Z"
+        },
+        "birth_year": {
+          "value": "1231",
+          "at": "2026-03-25T15:33:04.493Z"
+        },
+        "name": {
+          "value": "222222222",
+          "at": "2026-03-25T15:23:38.684Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:23:10.420Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:23:10.420Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:13.576Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:23:18.506Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:23:18.506Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:25.116Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:29.644Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:32.452Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:23:38.684Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:23:38.684Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_reject",
+          "at": "2026-03-25T15:23:40.849Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:44.626Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:26:51.368Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:27:38.903Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:27:46.399Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:28:03.012Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:28:05.676Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:28:07.981Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:29:58.990Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:33:04.493Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:33:04.493Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:33:06.752Z"
+        }
+      ]
+    },
+    "c26374d765d5": {
+      "id": "c26374d765d5",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:33:33.337Z",
+      "updatedAt": "2026-03-25T15:33:45.932Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:33:33.337Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T15:33:45.932Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:33:33.337Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:33:33.337Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:33:35.503Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:33:45.932Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:33:45.932Z"
+        }
+      ]
+    },
+    "a1823a40bf4e": {
+      "id": "a1823a40bf4e",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "pendingReviewStep": "name",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:37:37.808Z",
+      "updatedAt": "2026-03-25T15:42:44.084Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:37:37.808Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T15:37:51.664Z"
+        },
+        "name": {
+          "value": "111",
+          "at": "2026-03-25T15:42:44.084Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:37:37.808Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:37:37.808Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:37:42.103Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:37:51.664Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:37:51.664Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:37:56.459Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:40:38.418Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:40:38.418Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:40:41.183Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:42:44.084Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:42:44.084Z"
+        }
+      ]
+    },
+    "558547999af8": {
+      "id": "558547999af8",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:47:42.968Z",
+      "updatedAt": "2026-03-25T15:56:08.136Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:47:42.968Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T15:48:17.119Z"
+        },
+        "name": {
+          "value": "111111",
+          "at": "2026-03-25T15:53:33.535Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T15:56:08.136Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:47:42.968Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:47:42.968Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:48:09.930Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:48:17.119Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:48:17.119Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:53:23.296Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:53:33.535Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:53:33.535Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:53:36.174Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:53:48.675Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:53:48.675Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:53:53.058Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:56:08.136Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:56:08.136Z"
+        }
+      ]
+    },
+    "8c93b16216be": {
+      "id": "8c93b16216be",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:56:25.067Z",
+      "updatedAt": "2026-03-25T15:56:53.611Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:56:25.067Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T15:56:35.939Z"
+        },
+        "age": {
+          "value": "33",
+          "at": "2026-03-25T15:56:53.611Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:56:25.067Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:56:25.067Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:56:28.614Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:56:35.939Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:56:35.939Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:56:39.358Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:56:53.611Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:56:53.611Z"
+        }
+      ]
+    },
+    "28b4459ccfd8": {
+      "id": "28b4459ccfd8",
+      "phone": "+992111111111",
+      "status": "name",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:58:03.752Z",
+      "updatedAt": "2026-03-25T15:58:18.253Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:58:03.752Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T15:58:15.586Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:58:03.752Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:58:03.752Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:58:08.188Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:58:15.586Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:58:15.586Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:58:18.253Z"
+        }
+      ]
+    },
+    "3b6888c28c47": {
+      "id": "3b6888c28c47",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "residence_year",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:02:51.854Z",
+      "updatedAt": "2026-03-25T16:04:44.337Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:02:51.854Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T16:03:00.678Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T16:03:10.110Z"
+        },
+        "residence_year": {
+          "value": "1111",
+          "at": "2026-03-25T16:03:20.799Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:02:51.854Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:02:51.854Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:02:54.564Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:02:54.566Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T16:03:00.678Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:03:00.678Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:03:03.684Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T16:03:10.110Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:03:10.110Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:03:13.055Z"
+        },
+        {
+          "type": "submission",
+          "step": "residence_year",
+          "at": "2026-03-25T16:03:20.799Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:03:20.799Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:04:44.337Z"
+        }
+      ]
+    },
+    "e59ade4f2f9d": {
+      "id": "e59ade4f2f9d",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "name",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:08:49.005Z",
+      "updatedAt": "2026-03-25T16:09:27.065Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:08:49.005Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T16:09:17.057Z"
+        },
+        "name": {
+          "value": "111111111",
+          "at": "2026-03-25T16:09:27.065Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:08:49.005Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:08:49.005Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:08:54.718Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:08:54.719Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T16:09:17.057Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:09:17.057Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:09:20.380Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T16:09:27.065Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:09:27.065Z"
+        }
+      ]
+    },
+    "ec56c7cdf111": {
+      "id": "ec56c7cdf111",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:16:33.382Z",
+      "updatedAt": "2026-03-25T16:16:33.382Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:16:33.382Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:16:33.382Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:16:33.382Z"
+        }
+      ]
+    },
+    "b75ec9db664b": {
+      "id": "b75ec9db664b",
+      "phone": "+992111111111",
+      "status": "residence_year",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:31:29.824Z",
+      "updatedAt": "2026-03-25T16:31:33.068Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:31:29.824Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:31:29.824Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:31:29.824Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:31:33.067Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:31:33.068Z"
+        }
+      ]
+    },
+    "100e91a497e5": {
+      "id": "100e91a497e5",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:39:56.340Z",
+      "updatedAt": "2026-03-25T16:50:50.758Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:39:56.340Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T16:50:46.179Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:39:56.340Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:39:56.340Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:40:02.587Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:40:02.588Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T16:50:46.179Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:50:46.179Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:50:50.757Z"
+        }
+      ]
+    },
+    "adf82198e4b7": {
+      "id": "adf82198e4b7",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:54:14.112Z",
+      "updatedAt": "2026-03-25T16:54:17.231Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:54:14.112Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:54:14.112Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:54:14.112Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:54:17.229Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:54:17.230Z"
+        }
+      ]
+    },
+    "3fa51221e15b": {
+      "id": "3fa51221e15b",
+      "phone": "+992111111111",
+      "status": "birth_year",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:58:02.718Z",
+      "updatedAt": "2026-03-25T17:32:08.871Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:58:02.718Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T17:04:35.998Z"
+        },
+        "birth_year": {
+          "value": "1212",
+          "at": "2026-03-25T17:27:57.058Z"
+        },
+        "name": {
+          "value": "фыв21",
+          "at": "2026-03-25T17:31:29.474Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:58:02.718Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:58:02.718Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:58:08.503Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:58:08.505Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T16:58:12.861Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:58:12.861Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_reject",
+          "at": "2026-03-25T16:58:21.929Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T16:58:27.651Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:58:27.651Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_reject",
+          "at": "2026-03-25T16:58:32.986Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:02:05.803Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_reject",
+          "at": "2026-03-25T17:02:25.472Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T17:02:30.803Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:02:30.803Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:02:33.754Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T17:03:53.111Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:03:53.111Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:04:30.677Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T17:04:35.998Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:04:35.998Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:05:01.221Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:06:25.163Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:06:41.517Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:06:45.551Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:07:30.783Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:08:05.828Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:08:26.011Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:09:00.550Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T17:09:36.356Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:09:36.356Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:27:51.449Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T17:27:57.058Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:27:57.058Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:28:57.890Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T17:31:29.474Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:31:29.474Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:32:02.050Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:32:08.871Z"
+        }
+      ]
+    },
+    "c5d8279cb770": {
+      "id": "c5d8279cb770",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T18:01:29.394Z",
+      "updatedAt": "2026-03-25T18:02:21.815Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T18:01:29.394Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T18:01:29.394Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T18:01:29.394Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T18:01:33.016Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:01:33.017Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:01:37.440Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:01:40.293Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:01:42.104Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:02:19.896Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:02:21.815Z"
+        }
+      ]
+    }
+  },
+  "telegram": {
+    "lastUpdateId": 306893570
+  }
+}

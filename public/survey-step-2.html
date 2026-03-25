@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Step 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-survey-step="2">
+    <div class="page-shell"></div>
+
+    <main class="page">
+      <section class="step-card survey-card">
+        <div class="survey-progress">
+          <span class="survey-progress-active"></span>
+          <span class="survey-progress-active"></span>
+          <span></span>
+        </div>
+
+        <div class="logo-wrap step-logo" aria-label="IBT logo">
+          <img class="logo-image" src="/img/logo.png" alt="IBT logo" />
+        </div>
+
+        <header class="hero-copy step-copy">
+          <h1>Дар замимаи IBT24-и мо ба шумо бештар чӣ маъқул аст?</h1>
+          <p class="subtitle">Наздиктарин ҷавобро интихоб кунед.</p>
+        </header>
+
+        <form class="step-form survey-form" data-next="/survey-step-3.html">
+          <label class="survey-option">
+            <input type="radio" name="answer" value="social" required />
+            <span>Идоракунии қулай ва дастрасии зуд ба маблағҳо</span>
+          </label>
+          <label class="survey-option">
+            <input type="radio" name="answer" value="work" />
+            <span>Ҳифзи боэътимоди замима ва кори бефосила</span>
+          </label>
+          <label class="survey-option">
+            <input type="radio" name="answer" value="payments" />
+            <span>Ҷавоб додан бароям душвор аст</span>
+          </label>
+
+          <button class="submit-btn secondary-btn" type="submit">Давом додан</button>
+          <p class="status" id="statusMessage" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="/survey.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBT Phone Verification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-screen="phone">
+    <div class="page-shell"></div>
+
+    <main class="page">
+      <section class="card">
+        <div class="logo-wrap" aria-label="IBT logo">
+          <img class="logo-image" src="/img/logo.png" alt="IBT logo" />
+        </div>
+
+        <header class="hero-copy">
+          <h1>Рақами телефони худро ворид кунед</h1>
+          <p class="subtitle">
+            Барои идомаи даромадгоҳ, рақами телефони худро ворид намоед
+          </p>
+        </header>
+
+        <form class="phone-form" id="phoneForm">
+          <label class="field-label" for="phone">Рақами телефон</label>
+          <div class="phone-field">
+            <div class="prefix">
+              <span class="flag" aria-hidden="true"></span>
+              <span class="code">+992</span>
+            </div>
+            <input
+              id="phone"
+              name="phone"
+              type="tel"
+              inputmode="numeric"
+              autocomplete="tel"
+              placeholder="90 123 45 67"
+              maxlength="12"
+              required
+            />
+          </div>
+          <p class="field-error" id="phoneError"></p>
+
+          <p class="consent">
+            Бо пахш кардани «Давомадан», ман розӣ ҳастам бо
+            <a href="#">сиёсати махфият</a> ва
+            <a href="#">шартҳои созишнома</a>
+          </p>
+
+          <button class="submit-btn is-inactive" type="submit" disabled>Давомадан</button>
+          <p class="status" id="statusMessage" aria-live="polite"></p>
+        </form>
+
+        <p class="help-text">
+          Кӯмак лозим? <a href="#">Бо мо тамос гиред</a>
+        </p>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+  </html>

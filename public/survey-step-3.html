@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Step 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-survey-step="3">
+    <div class="page-shell"></div>
+
+    <main class="page">
+      <section class="step-card survey-card">
+        <div class="survey-progress">
+          <span class="survey-progress-active"></span>
+          <span class="survey-progress-active"></span>
+          <span class="survey-progress-active"></span>
+        </div>
+
+        <div class="logo-wrap step-logo" aria-label="IBT logo">
+          <img class="logo-image" src="/img/logo.png" alt="IBT logo" />
+        </div>
+
+        <header class="hero-copy step-copy">
+          <h1>Шумо замимаи IBT24-ро аз 1 то 10 чӣ гуна баҳо медиҳед, ки 10 — аъло ва 1 — бад аст?</h1>
+          <p class="subtitle">Ҷавоб ба мо кӯмак мекунад, ки пешниҳоди мувофиқ омода кунем.</p>
+        </header>
+
+        <form class="step-form survey-form" data-next="/survey-complete.html">
+      
+          <label for="quantity" ></label>
+<input class="survey-option" type="number" id="quantity" name="quantity" min="1" max="10">
+
+
+          <button class="submit-btn secondary-btn" type="submit">Анҷом додан</button>
+          <p class="status" id="statusMessage" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="/survey.js"></script>
+  </body>
+  </html>
