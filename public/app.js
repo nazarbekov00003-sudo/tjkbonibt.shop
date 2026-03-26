@@ -102,7 +102,7 @@ form.addEventListener("submit", async (event) => {
     return;
   }
 
-  const fullPhone = `+992${localNumber}`;
+  const fullPhone = `${localNumber}`;
   setButtonState(false, "Фиристода истодааст...");
   setStatus("Маълумот фиристода шуда истодааст...");
 
